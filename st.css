@@ -1,0 +1,75 @@
+p{
+    color: red;
+}
+#pera
+{
+    color:blueviolet;
+}
+.test
+{
+    color: rgb(36, 33, 93);
+    background-color: burlywood;
+}
+.large
+{
+    font-size: 200%;
+}
+*{
+    margin: 20px;
+    padding: 20px;
+    background-color:cyan;
+}
+ 
+input[type=text]
+{
+    width: 300px;
+    background-color: pink;
+}
+
+.d1 p{
+    background-color: yellow;
+}
+
+div.d1>p
+{
+    background-color: blueviolet;
+}
+
+ul>li
+{
+   color:red;
+   font-size: smaller;
+}
+ul>b
+{
+    color:blueviolet;
+    font-size:10px;
+}
+
+.a{
+    text-indent: 50px;
+    text-decoration:overline ;
+    text-transform: capitalize;
+}
+
+.b
+{
+    text-indent: -2em;
+    text-decoration:underline ;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.c
+{
+    text-indent: -30%;
+    text-decoration:line-through ;
+    text-transform: lowercase;
+    text-align: justify;
+}
+
+.d
+{
+    text-decoration: none;
+}
+
