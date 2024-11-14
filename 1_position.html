@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            margin-top: 50px;
+            height: 800px;
+            border: 1px solid red;
+        }
+        .container2{
+            margin-top: 30px;
+            height: 1000px;
+            border: 2px solid green;
+        }
+        .test{
+            margin-left: 20px;
+            text-align: center;
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+        
+        }
+        #test1{
+            /* by default static */
+            background-color: aliceblue;
+        }
+        #test2{
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background-color: aqua;
+        }
+        #test3{
+            position: absolute; 
+            /* work on browser boundry */
+            top: 0px;
+            right: 0px;
+            background-color: aquamarine;
+        }
+        #test4{
+            position: fixed;
+            /* fixed when you scrol browser */
+            top: 50px;
+            right: 0px;
+            background-color: antiquewhite;
+        }
+        #test5{
+            position: sticky;
+            top: 0px;
+            
+            background-color:burlywood;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="test" id="test1">1</div>
+        <div class="test" id="test2">2</div>
+        <div class="test" id="test3">3</div>
+        <div class="test" id="test4">4</div>
+        <div class="test" id="test5">5</div>
+    </div>
+    <div class="container2">
+        
+    </div>
+</body>
+</html>
