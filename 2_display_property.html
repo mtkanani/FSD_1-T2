@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .p1,
+        .p2,
+        .p3,
+        .p4 {
+            border: 1px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .p1 p {
+            /* display: none; */
+        }
+
+        .p2 p {
+            display: inline;
+            width: 50px;
+            height: 50px;
+        }
+
+        .p3 p {
+            display: block;
+
+        }
+
+        .p4 p {
+            display: inline-block;
+            /* height: 50px;
+            width: 50px; */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="p1">
+        <h2>display:none</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugit numquam
+            asperiores rerum corporis nihil similique dolor nobis quas magnam quasi distinctio
+            iure voluptatem suscipit ipsum quam at nam explicabo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit hic nesciunt quasi nam quidem fugit
+            illum quaerat quis facilis in officiis repellendus,
+            quae doloribus provident nulla molestias, eveniet tenetur corporis!</p>
+        <h5>content of p element of p1 class will not be displayed</h5>
+    </div>
+    <div class="p2">
+        <h2>display:inline</h2>
+        <p>elemnt will be display inline</p>
+        <p>height width properties can not be applied</p>
+    </div>
+    <div class="p3">
+        <h2>display:block</h2>
+        <p>elemnt will be display inline</p>
+        <p>height width properties can not be applied</p>
+    </div>
+    <div class="p4">
+        <h2>display:inline</h2>
+        <p>elemnt will be display inline</p>
+        <p>height width properties can not be applied</p>
+    </div>
+</body>
+
+</html>
