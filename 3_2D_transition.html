@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+    .div{
+            height: 100px;
+            width: 100px;
+            background-color: cadetblue;
+            /* transition-property: width,height;
+            transition-duration: 5s,5s; 
+            transition-delay: 2s; */
+            transition: height 5s,width 5s,1s;
+        }
+        .div:hover{
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+        }
+        .b{
+            height: 20px;
+            width: 80px;
+            background-color: cadetblue;
+            /* transition-property: width,height;
+            transition-duration: 5s,5s; 
+            transition-delay: 2s; */
+            transition: height 5s,width 5s,1s;
+        }
+        .b:active{
+            height: 100px;
+            width: 400px;
+            background-color: blueviolet;
+        }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div>
+        this is transition when your curser is hover here
+    </div> -->
+    <button value="submit" class="b">transition </button>
+<label>Text Box</label>
+<input type="text" name="uname" class="div">
+</body>
+</html>
