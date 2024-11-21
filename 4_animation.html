@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            position: relative;
+            animation: example;
+            width: 100px;
+            height: 100px;
+            animation-duration: 3s;
+            background-color: red;
+            animation-delay: -2s; 
+            animation-direction: reverse;
+            animation-iteration-count: 2; 
+
+        }
+        @keyframes example {
+            /* from{background-color:green;}
+            to{background-color:yellow;} */
+            
+        }
+        @keyframes example {
+            0%{background-color: blue;top: 0px;left: 0px;}
+            25%{background-color: brown;top: 0px;left: 200px;}
+            50%{background-color: greenyellow;top: 200px;left: 200px;}
+            75%{background-color:aquamarine;top: 200;left: 0px;}
+            100%{background-color: cornsilk;top: 0;left: 0;}
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

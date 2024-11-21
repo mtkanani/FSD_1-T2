@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><style>
-    div{
-
-    }
     #grad1{
         height: 300px;
         width: 300px;
@@ -18,14 +15,27 @@
         /* background-image: linear-gradient(to top left,yellow,red,blue,aqua); */
         /* background-image: linear-gradient(90deg,yellow,red,blue,aqua); */
         /* background-image: linear-gradient(180deg,yellow,red,blue,aqua); */
-        background-image: linear-gradient(270deg,yellow,red,blue,aqua);
+        background-image: linear-gradient(to right,purple,indigo,skyblue,green,yellow,orange,red);
 
 
     }
     #grad2{
         height: 300px;
-        width: 300px;
-        background-image: radial-gradient(yellow,red);
+        width: 500px;
+        /* background-image: radial-gradient(purple,indigo,skyblue,green,yellow,orange,red); */
+        background-image: radial-gradient(yellow 10%,red 15%,pink 50%);
+    }
+    #grad3{
+        height: 300px;
+        width: 500px;
+        background-image: radial-gradient(circle,blue,yellow,pink);
+    }
+    #grad4{
+        height: 300px;
+        width: 500px;
+        /* background-image: conic-gradient(red,yellow,blue); */
+        background-image: conic-gradient(from 90deg,red 45deg,yellow 90deg,green 270deg,purple 310deg);
+        border-radius: 50%;
     }
     
 </style>
@@ -36,5 +46,7 @@
 <body>
     <div id="grad1"></div>
     <div id="grad2"></div>
+    <div id="grad3"></div>
+    <div id="grad4"></div>
 </body>
 </html>
