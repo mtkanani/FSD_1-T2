@@ -8,7 +8,7 @@
     <style>
         body
         {background-color: green;}
-        @media screen and (max-width:400px)
+        /* @media screen and (max-width:400px)
          {
             body{
                 background-color: plum;
@@ -18,6 +18,11 @@
             body{
                 background-color: aqua;
             } 
+        } */
+        @media not (orientation:landscape) {
+            body{
+                background-color: blue;
+            }
         }
     </style>
     <title>Document</title>
