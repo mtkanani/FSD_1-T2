@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .ab{
+            display: inline-block;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .ab .tp{
+            visibility: hidden;
+            position:absolute;
+            width: 150px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .ab:hover .tp{
+            visibility: visible;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Tooltip demo </h1>
+    <div class="ab">
+        CSS
+        <span class="tp">Cascading style sheet</span>
+    </div>
+</body>
+</html>
